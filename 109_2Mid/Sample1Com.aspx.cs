@@ -9,6 +9,7 @@ namespace _109_2Mid {
     public partial class Sample1Com : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
 
+            
         }
     }
 }
