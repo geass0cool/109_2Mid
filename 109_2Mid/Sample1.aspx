@@ -15,11 +15,11 @@
             <asp:TextBox ID="tb_Acc" runat="server" Height="15px" Width="200px"></asp:TextBox>
             <br/>
         <asp:Label ID="Label2" runat="server" Text="密碼"></asp:Label>
-            <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px"></asp:TextBox><br/>
+            <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox><br/>
         <asp:Label ID="Label3" runat="server" Text="興趣(單選)"></asp:Label>
-            <asp:RadioButton ID="RadioButton1" runat="server" Text="看書" />
-            <asp:RadioButton ID="RadioButton2" runat="server" Text="打電動" />
-            <asp:RadioButton ID="RadioButton3" runat="server" Text="其他" />
+            <asp:RadioButton ID="RadioButton1" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton1_CheckedChanged" Text="看書" />
+            <asp:RadioButton ID="RadioButton2" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton2_CheckedChanged" Text="打電動" />
+            <asp:RadioButton ID="RadioButton3" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton3_CheckedChanged" Text="其他" />
             <br/>
             <asp:Label ID="Label4" runat="server" Text="其他連結"></asp:Label>
             <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="aws-brands.svg" NavigateUrl="https://aws.amazon.com/tw/" Width="30px">HyperLink</asp:HyperLink><br/>

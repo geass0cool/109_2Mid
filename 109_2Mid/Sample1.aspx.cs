@@ -10,5 +10,20 @@ namespace _109_2Mid {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+       
+        }
+
+        protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+     
+        }
+
+        protected void RadioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
