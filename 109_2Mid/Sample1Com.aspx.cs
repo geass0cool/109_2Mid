@@ -13,15 +13,15 @@ namespace _109_2Mid {
 
             if (Request.Form.Get("RadioButton1") == "on")
             {
-                lb_Res.Text = lb_Res.Text + "看書" + "<br/>";
+                lb_Res.Text = lb_Res.Text + "看書";
             }
             if (Request.Form.Get("RadioButton2") == "on")
             {
-                lb_Res.Text = lb_Res.Text + "打電動" + "<br/>";
+                lb_Res.Text = lb_Res.Text + "打電動";
             }
             if (Request.Form.Get("RadioButton3") == "on")
             {
-                lb_Res.Text = lb_Res.Text + "其他" + "<br/>";
+                lb_Res.Text = lb_Res.Text + "其他";
             }
         }
 }
