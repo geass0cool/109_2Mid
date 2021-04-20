@@ -17,7 +17,7 @@
         <asp:Label ID="Label2" runat="server" Text="密碼"></asp:Label>
             <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox><br/>
         <asp:Label ID="Label3" runat="server" Text="興趣(單選)"></asp:Label>
-            <asp:RadioButton ID="RadioButton1" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton1_CheckedChanged" Text="看書" GroupName="Question" />
+            <asp:RadioButton ID="rbg_Interest" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton1_CheckedChanged" Text="看書" GroupName="Question" />
             <asp:RadioButton ID="RadioButton2" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton2_CheckedChanged" Text="打電動" GroupName="Question" />
             <asp:RadioButton ID="RadioButton3" runat="server" AutoPostBack="True" OnCheckedChanged="RadioButton3_CheckedChanged" Text="其他" GroupName="Question" />
             <br/>

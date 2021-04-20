@@ -10,18 +10,18 @@ namespace _109_2Mid {
         protected void Page_Load(object sender, EventArgs e)
         {
             lb_Res.Text = Request.Form.Get("tb_Acc") + "<br />" + Request.Form.Get("tb_Pass") + "<br />";
-
-            if (Request.Form.Get("RadioButton1") == "on")
+            string result = "";
+            if (Request.Form.Get("rbg_Interest") == "rb1")
             {
-                lb_Res.Text = lb_Res.Text + "看書";
+                result += "看書<br />";
             }
-            if (Request.Form.Get("RadioButton2") == "on")
+            else if (Request.Form.Get("rbg_Interest") == "rb2")
             {
-                lb_Res.Text = lb_Res.Text + "打電動";
+                result += "打電動<br />";
             }
-            if (Request.Form.Get("RadioButton3") == "on")
+            else
             {
-                lb_Res.Text = lb_Res.Text + "其他";
+                result += "其他<br />";
             }
         }
 }

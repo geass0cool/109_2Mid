@@ -69,13 +69,13 @@ namespace _109_2Mid
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// RadioButton1 控制項。
+        /// rbg_Interest 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+        protected global::System.Web.UI.WebControls.RadioButton rbg_Interest;
 
         /// <summary>
         /// RadioButton2 控制項。
